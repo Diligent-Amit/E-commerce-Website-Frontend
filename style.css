@@ -1,0 +1,148 @@
+ @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap');
+
+ :root {
+     --main-bg-color: brown;
+ }
+
+ * {
+     margin: 0;
+     padding: 0;
+ }
+
+ header {
+     background-color: var(--main-bg-color);
+     color: white;
+     font-family: 'Noto Serif', serif;
+ }
+
+ nav {
+     display: flex;
+ }
+
+ .logo {
+     display: flex;
+     align-items: center;
+ }
+
+ .logo img {
+     width: 400px;
+     padding: 0 23px;
+ }
+
+
+
+ nav ul {
+     /* height: 60px; */
+     display: flex;
+     justify-content: flex-start;
+     align-items: center;
+
+ }
+
+ nav ul li {
+     list-style: none;
+     padding: 0 23px;
+ }
+
+ nav ul li a {
+     text-decoration: none;
+     color: azure;
+ }
+
+ nav ul li a:hover {
+     color: lightgray;
+     font-weight: bold;
+ }
+
+ .search {
+     display: flex;
+     align-items: center;
+
+ }
+
+ .search input {
+     width: 400px;
+     height: 20px;
+     border-radius: 1px;
+     margin: 0 10px 0 20px;
+     padding: 0 10px;
+
+ }
+
+ .btn {
+     border: 2px solid lightcyan;
+     border-radius: 2px;
+     cursor: pointer;
+     font-family: 'Noto Serif', serif;
+     font-weight: bold;
+ }
+
+ .container {
+    height: 240vh;
+    
+    justify-content: center;
+
+}
+
+
+ .slider{
+    width: 80vw;
+    margin: 12px auto;
+    
+ }
+
+ .card{
+    font-family: 'Noto Serif', serif;
+    margin: 20px;
+    padding: 12px;
+    
+ }
+
+ 
+ .card h2{
+    margin: 0;
+    width: 90vw;
+
+    padding: 20px;
+    
+    background-color: silver;
+    color: black;
+    border: 2px solid black;
+  
+ }
+ 
+ .card-item{
+    padding: 10px;
+    border: 2px solid black;
+    font-family: 'Noto Serif', serif;
+    margin: 20px 0;
+  
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+
+ }
+
+ .lines{
+  
+    justify-content: center;
+    display: inline;
+    align-items: center;
+    padding: 20px;
+    cursor: pointer;
+ }
+ 
+
+
+ 
+footer{
+    background-color: rgb(165,42,42);
+  
+    height: 12vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Noto Serif', serif;  
+}
+ 
